@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="team-container">
+            <h3>HOME</h3>
+            <div class="counter-outer"><div id="team-1" class="score">0</div></div>
+            <div class="btn-hub">
+                <button class="btn-press" onclick="incrementTeam11()">+ 1</button>
+                <button class="btn-press" onclick="incrementTeam12()">+ 2</button>
+                <button class="btn-press" onclick="incrementTeam13()">+ 3</button>
+            </div>
+        </div>
+        <div class="team-container">
+            <h3>AWAY</h3>
+            <div class="counter-outer"><div id="team-2" class="score">0</div></div>
+            <div class="btn-hub">
+                <button class="btn-press" onclick="incrementTeam21()">+ 1</button>
+                <button class="btn-press" onclick="incrementTeam22()">+ 2</button>
+                <button class="btn-press" onclick="incrementTeam23()">+ 3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
